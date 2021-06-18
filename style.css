@@ -209,7 +209,7 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 600px) {
   .header {
     width: 100%;
   }
@@ -219,7 +219,7 @@ footer {
   }
 
   #evaluation-form {
-    width: 450px;
+    width: 250px;
     display: flex;
   }
 
@@ -239,6 +239,51 @@ footer {
 
   #textarea {
     width: 450px;
+  }
+
+  footer {
+    width: 100%;
+  }
+} */
+
+@media screen and (max-width: 400px) {
+  .header {
+    width: 100%;
+  }
+
+  #trybewarts-header-title {
+    display: none;
+  }
+
+  .header img {
+    display: none;
+  }
+
+  .trybewarts-login input {
+    width: 100px;
+  }
+
+  #evaluation-form {
+    width: 350px;
+    display: flex;
+  }
+
+  #trybewarts-forms-logo {
+    width: 350px;
+    height: 350px;
+  }
+
+  .label-aside {
+    flex-flow: row wrap;
+    width: 350px;
+  }
+
+  .ratio {
+    margin-top: 10px;
+  }
+
+  #textarea {
+    width: 350px;
   }
 
   footer {
