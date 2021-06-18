@@ -209,7 +209,7 @@ footer {
   justify-content: center;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (min-width: 400px) and (max-width: 700px) {
   .header {
     width: 100%;
   }
@@ -219,8 +219,12 @@ footer {
   }
 
   #evaluation-form {
-    width: 250px;
+    width: 450px;
     display: flex;
+  }
+
+  .items-form label {
+    margin-right: 20px;
   }
 
   #trybewarts-forms-logo {
@@ -244,7 +248,7 @@ footer {
   footer {
     width: 100%;
   }
-} */
+}
 
 @media screen and (max-width: 400px) {
   .header {
