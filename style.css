@@ -209,23 +209,24 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   #trybewarts-header-title {
     display: none;
   }
 
   #evaluation-form {
-    width: 480px;
+    width: 450px;
     display: flex;
   }
 
   #trybewarts-forms-logo {
-    width: 480px;
+    width: 450px;
+    height: 450px;
   }
 
   .label-aside {
     flex-flow: row wrap;
-    width: 480px;
+    width: 450px;
   }
 
   .ratio {
@@ -233,6 +234,6 @@ footer {
   }
 
   #textarea {
-    width: 480px;
+    width: 450px;
   }
 }
