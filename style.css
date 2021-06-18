@@ -223,6 +223,31 @@ footer {
     display: flex;
   }
 
+  .input-info input,
+  .input-info2 input {
+    width: 100%;
+    margin: 2px 0;
+  }
+
+  #house {
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  .family-radio {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .radio-tech {
+    width: 100%;
+  }
+
+  .items-form {
+    width: 100%;
+    flex-direction: column;
+  }
+
   .items-form label {
     margin-right: 20px;
   }
@@ -270,11 +295,31 @@ footer {
 
   .input-info input,
   .input-info2 input {
+    width: 100%;
     margin: 2px 0;
   }
 
+  #house {
+    width: 100%;
+    margin-top: 2px;
+  }
+
+  .family-radio {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .radio-tech {
+    width: 100%;
+  }
+
+  .items-form {
+    width: 100%;
+    flex-direction: column;
+  }
+
   .items-form label {
-    margin-right: 0;
+    margin-right: 20px;
   }
 
   #trybewarts-forms-logo {
