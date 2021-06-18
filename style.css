@@ -240,4 +240,8 @@ footer {
   #textarea {
     width: 450px;
   }
+
+  footer {
+    width: 100%;
+  }
 }
