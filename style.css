@@ -251,11 +251,7 @@ footer {
     width: 100%;
   }
 
-  #trybewarts-header-title {
-    display: none;
-  }
-
-  .header img {
+  .trybewarts-login {
     display: none;
   }
 
@@ -266,6 +262,10 @@ footer {
   #evaluation-form {
     width: 350px;
     display: flex;
+  }
+
+  .items-form label {
+    margin-right: 0;
   }
 
   #trybewarts-forms-logo {
