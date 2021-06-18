@@ -219,7 +219,7 @@ footer {
   }
 
   #evaluation-form {
-    width: 450px;
+    width: 400px;
     display: flex;
   }
 
@@ -228,13 +228,13 @@ footer {
   }
 
   #trybewarts-forms-logo {
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
   }
 
   .label-aside {
     flex-flow: row wrap;
-    width: 450px;
+    width: 400px;
   }
 
   .ratio {
@@ -242,7 +242,7 @@ footer {
   }
 
   #textarea {
-    width: 450px;
+    width: 400px;
   }
 
   footer {
@@ -264,8 +264,13 @@ footer {
   }
 
   #evaluation-form {
-    width: 350px;
+    width: 300px;
     display: flex;
+  }
+
+  .input-info input,
+  .input-info2 input {
+    margin: 2px 0;
   }
 
   .items-form label {
@@ -273,21 +278,25 @@ footer {
   }
 
   #trybewarts-forms-logo {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
   }
 
   .label-aside {
     flex-flow: row wrap;
-    width: 350px;
+    width: 300px;
   }
 
   .ratio {
     margin-top: 10px;
   }
 
+  .ratio label {
+    margin-right: 0;
+  }
+
   #textarea {
-    width: 350px;
+    width: 300px;
   }
 
   footer {
