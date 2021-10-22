@@ -61,7 +61,7 @@ main h1 {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-grow: 1;
   flex-flow: row wrap;
 }
