@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: cursive, sans-serif;
+  font-family: arial, sans-serif;
 }
 
 body {
@@ -15,6 +15,10 @@ body {
   justify-content: space-evenly;
   align-items: center;
   height: 80px;
+}
+
+.login, .senha {
+  font-size: 14px;
 }
 
 main h1 {
