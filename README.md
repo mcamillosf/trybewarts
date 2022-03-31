@@ -1,1 +1,1 @@
-# mcamillosftrybewarts.github.io
+# https://mcamillosf.github.io/trybewarts/
